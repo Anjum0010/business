@@ -92,26 +92,134 @@ nav ul li a:hover {
 }
 
 /* -------------------------------------------------------- */
-.main-social {}
+.main-social {
+    margin: 2rem 0;
+}
 
 .main-social .social-inner {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .main-social .social-inner .social {
-    width: 50%;
+    width: 48%;
     position: relative;
+    padding: 1rem 1rem 1rem 6rem;
+    align-items: center;
+    color: #444547;
 }
 
 
 
-.main-social .social-inner .social i{
+.main-social .social-inner .social i {
     position: absolute;
-    top: 0;
-    left: -20;
-    width: 100%;
+    top: 35;
+    left: 0;
+    background-color: skyblue;
+    font-size: 3rem;
+    padding: 1rem;
+    color: white;
 }
+
+.main-social .social-inner .social h3 {
+    margin-bottom: .5rem;
+}
+
+.main-social .social-inner .social p {
+    margin-bottom: .5rem;
+    line-height: 1.5;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.main-service {
+    margin: 2rem 0;
+}
+
+.main-service .service-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-service .service-inner .service-about {
+    width: 32%;
+}
+
+.main-service .service-inner .service-about img {
+    width: 100%;
+    margin: .7rem 0;
+}
+
+.main-service .service-inner .service-about p {
+    line-height: 1.5;
+    margin-bottom: .7rems;
+}
+
+.btn {
+    background-color: skyblue;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    margin-top: .7rem;
+}
+
+.main-service .service-inner .service-services {
+    width: 32%;
+}
+
+.main-service .service-inner .service-services p {
+    margin: .7rem 0;
+    line-height: 1.5;
+}
+
+.main-service .service-inner .service-services ul li{
+    list-style: none;
+    margin-bottom: 2.2rem;
+}
+
+.main-service .service-inner .service-services ul li a span i {
+    padding-right: 1rem;
+}
+
+.main-service .service-inner .service-services ul li  a {
+    text-decoration: none;
+    color: skyblue;
+}
+.main-service .service-inner .service-contact {
+    width: 32%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -120,15 +228,20 @@ nav ul li a:hover {
 @media (max-width:992px) {
     .main-slider1 .slider-inner1 .sub-slider-inner1 {
         width: 50%;
-        padding: 4rem 2rem;
-        background-color: skyblue;
-        color: white;
-        height: 25rem;
 
     }
 }
 
-@media (width:768px) {}
 
 
-@media (width:600px) {}
+
+@media (max-width:600px) {
+    .main-slider1 .slider-inner1 .sub-slider-inner1 {
+        width: 100%;
+    }
+
+    .main-social .social-inner .social {
+        width: 100%;
+
+    }
+}
