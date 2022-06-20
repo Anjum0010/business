@@ -171,6 +171,7 @@ nav ul li a:hover {
 .main-service .service-inner .service-services {
     width: 32%;
     margin-top: 1rem;
+    padding: 0 1rem;
 
 }
 
@@ -196,13 +197,60 @@ nav ul li a:hover {
 .main-service .service-inner .service-contact {
     width: 32%;
     margin-top: 1rem;
+    padding: 0 1rem;
 
 }
 
 .service-inner .service-contact .service-contact-up {
     background-color: skyblue;
-    padding: 1rem;
+    padding: 2rem 1rem;
     color: white;
+    line-height: 1.8;
+}
+
+.service-inner .service-contact .service-contact-up h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.service-inner .service-contact .service-contact-down {
+    position: relative;
+    background-color: #f9f9f9;
+    margin-top: 2rem;
+    padding: 2.5rem 1rem 2.5rem 7rem;
+    line-height: 1.4;
+}
+
+.service-inner .service-contact .service-contact-down img {
+    position: absolute;
+    top: 16%;
+    left: 0;
+    width: 6rem;
+    object-fit: cover;
+    padding: .7rem;
+}
+
+.service-inner .service-contact .service-contact-down a {
+    text-decoration: none;
+    color: skyblue;
+    margin: 1rem 0;
+    display: inline-block;
+
+}
+
+.service-inner .service-contact .service-contact-down ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.service-inner .service-contact .service-contact-down ul li {
+    color: #d1d2d1;
+    margin: 0 .5rem;
+}
+
+.service-inner .service-contact .service-contact-down ul li span {
+    color: skyblue;
 }
 
 /* -------------------------------------------------------------- */
@@ -242,14 +290,12 @@ nav ul li a:hover {
     border: 1px solid #303132;
 }
 
-footer {
+.main-footer {
     background-color: #444547;
-}
-
-.footer {
     color: white;
-
+    padding: .5rem 0;
 }
+
 
 
 
